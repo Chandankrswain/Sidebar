@@ -8,9 +8,14 @@ body{
    
 }
 
+span{
+    color:gray;
+    
+}
+
 .container{
     background-color:rgb(15, 15, 15);
-    width:230px;
+    width:220px;
     height: 100vh;
     border-top-right-radius: px ;
 }
@@ -25,7 +30,7 @@ body{
 .channel-name{
     font-size: 22px;
     font-weight: 600;
-    color:whitesmoke;
+    color:white;
     flex: 1;
 }
 
@@ -36,6 +41,8 @@ body{
 .top-section{
     display:flex;
     flex-direction: column;
+    height: 200px;
+    border-bottom: rgba(84,84,84,0.4) 1px solid;
 
 }
 
