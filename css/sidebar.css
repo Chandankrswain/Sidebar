@@ -19,7 +19,7 @@ span{
     background-color:rgb(15, 15, 15);
     width:220px;
     height: 100vh;
-    position:fixed;
+    position: fixed;
 }
 
 .top-most-section{
@@ -43,7 +43,7 @@ span{
 .top-section{
     display:flex;
     flex-direction: column;
-    height: 200px;
+    height: 190px;
     border-bottom: rgba(84,84,84,0.4) 1px solid;
 
 }
@@ -88,6 +88,7 @@ span{
 
 .middle-section{
     margin-top: 10px;
+    margin-bottom: 50px;
 }
 
 .middle-inner-text{
@@ -109,3 +110,81 @@ span{
     margin-left:11px;
 }   
 
+
+.bottom-section{
+    display:flex;
+    flex-direction: column;
+    height:80px;   
+    padding: 5px 5px;
+    margin: 5px 10px;
+    border-radius: 5px;
+    background-color: rgb(30, 30, 30) ;
+}
+
+.bottom-top-div{
+    display: flex;
+    height: 38px;
+    width: 190px;
+    margin-bottom: 3px;
+    background-color: rgb(15,15,15);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.logo-div{
+    position: relative;
+}
+
+.online{
+    position: absolute;
+    width:8px;
+    height:8px;
+    top: 18px;
+    right:1px;
+    border-radius: 50%;
+    background-color: #1fa515;
+}
+
+.channel-logo{
+    width:25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+.join-button{
+    font-size: 8px;
+    background-color: #1fa515;
+    border: none;
+    height: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.bottom-channel-name-div{
+    flex-direction: column;
+    display: flex;
+    flex:1;
+}
+
+.chnl-name{
+    margin :0px 10px;
+    font-size: 9px;
+    color: #c3c3c3;
+    font-weight:500 ;
+}
+
+.chnl-social{
+    font-size: 9px;    
+    margin :0px 10px;
+    color: #4a4a4a;
+}
+
+.subscribe-button{
+    background-color: transparent;
+    border: 1px solid #4a4a4a;
+    font-size: 11px;
+    font-weight: 400;
+    color:#FCF5ED;
+    border-radius: 5px;
+    padding: 7px 5px;
+}
