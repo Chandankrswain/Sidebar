@@ -15,12 +15,34 @@ span{
 
 }
 
-.container{
+.openbtn{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    
+}
+
+#check{
+    display: none;
+}
+
+#check:checked ~.side-bar{
+    left: 0px;
+}
+
+#check:checked ~.openbtn{
+    transition:ease-out;
+}
+
+.side-bar{
     background-color:rgb(15, 15, 15);
     width:220px;
     height: 100vh;
+    left: -220px;
     position: fixed;
+    transition: 0.7s ;
 }
+
 
 .top-most-section{
     display: flex;
@@ -37,8 +59,13 @@ span{
 }
 
 .expand-icon{
-    width: 22px;
+    width: 25px;
+    cursor: pointer;
+    transform: rotateY(180deg);
+    transition: all 0.5s linear;
 }
+
+
 
 .top-section{
     display:flex;
@@ -160,6 +187,10 @@ span{
     border-radius: 5px;
 }
 
+.join-button:hover{
+    background-color:#218719 ;
+}
+
 .bottom-channel-name-div{
     flex-direction: column;
     display: flex;
@@ -188,6 +219,10 @@ span{
     color:#FCF5ED;
     border-radius: 5px;
     padding: 7px 5px;
+}
+
+.subscribe-button:hover{
+    background-color: #222222;
 }
 
 .theme{
